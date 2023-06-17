@@ -133,3 +133,8 @@ dmypy.json
 
 # macOS
 .DS_Store
+/src/pandora/FixOpenaiApi/.vs/FixOpenaiApi
+/src/pandora/FixOpenaiApi/obj
+/src/pandora/FixOpenaiApi/bin/Debug/net7.0
+/src/pandora/FixOpenaiApi/bin/Release/net7.0
+/src/pandora/FixOpenaiApi/Properties/PublishProfiles
