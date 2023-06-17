@@ -138,3 +138,5 @@ dmypy.json
 /src/pandora/FixOpenaiApi/bin/Debug/net7.0
 /src/pandora/FixOpenaiApi/bin/Release/net7.0
 /src/pandora/FixOpenaiApi/Properties/PublishProfiles
+/src/pandora/FixOpenaiApi/FixOpenaiApi.csproj.user
+/.vs
