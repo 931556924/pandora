@@ -16,7 +16,10 @@ __public_key = b'-----BEGIN PUBLIC KEY-----\n' \
 
 
 def check_access_token(access_token, api=False):
-    if api and access_token.startswith('sk-'):
+    if access_token.startswith('fk-'):
+        return True
+
+    if api and (access_token.startswith('sk-') or access_token.startswith('pk-')):
         return True
 
     payload = (decode(access_token, key=__public_key, algorithms='RS256', audience=[
